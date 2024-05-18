@@ -1,0 +1,11 @@
+# Exported from Render on 2024-05-18T21:07:47Z
+services:
+- type: web
+  name: frontendCalculadoraMatrices
+  runtime: node
+  repo: https://github.com/HugoOrielso/frontendCalculadoraMatrices
+  plan: free
+  region: oregon
+  buildCommand: pnpm install --frozen-lockfile
+  startCommand: pnpm start
+version: "1"
